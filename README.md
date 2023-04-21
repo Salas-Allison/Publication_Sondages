@@ -42,8 +42,8 @@ La base de données MySQL, le modèle de données JPA et le serveur Spring Boot
 
 ## Les points d'accès demandés sont :
 
->GET/sondages : Liste de tous les sondages dont la date de cloture est dans le futur.
->GET/sondages/{id} : Lecture du sondage {id} et retour au format JSON.
->POST/sondages : Création d'un nouveau sondage puis réponse HTTP 200.
->PUT/sondages/{id} : Modification du sondage {id} puis réponse HTTP 200.
->DELETE/sondages/{id} : Suppression du sondage {id} puis réponse HTTP 200.
+* GET/sondages : Liste de tous les sondages dont la date de cloture est dans le futur.
+* GET/sondages/{id} : Lecture du sondage {id} et retour au format JSON.
+* POST/sondages : Création d'un nouveau sondage puis réponse HTTP 200.
+* PUT/sondages/{id} : Modification du sondage {id} puis réponse HTTP 200.
+* DELETE/sondages/{id} : Suppression du sondage {id} puis réponse HTTP 200.
